@@ -8,3 +8,14 @@ name = "python"
 formatter = { command = "black", args = ["--quiet", "-"] }
 auto-format = true
 language-servers = [ "pyright" ]
+
+
+[[language]]
+name = "c"
+auto-format = true
+formatter = { command  = "clang-format"}
+
+[[language]]
+name = "cpp"
+auto-format = true
+formatter = { command  = "clang-format"}
