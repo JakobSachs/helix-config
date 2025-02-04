@@ -1,8 +1,12 @@
-# theme = "everforest_dark"
 theme = "ayu_mirage"
+
 [editor]
 line-number = "relative"
 mouse = false
+cursorline = true
+
+bufferline = "always"
+rulers = [100]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,4 +15,19 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.indent-guides]
+render = true
+character = "┆" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+other-lines = "hint"
+
+[editor.statusline]
+left = ["mode","spinner"]
+
+center = ["file-name"]
+right = ["diagnostics", "version-control", "file-type"]
 
