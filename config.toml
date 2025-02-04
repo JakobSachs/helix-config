@@ -29,5 +29,5 @@ other-lines = "hint"
 left = ["mode","spinner"]
 
 center = ["file-name"]
-right = ["diagnostics", "version-control", "file-type"]
+right = ["diagnostics", "version-control"]
 
